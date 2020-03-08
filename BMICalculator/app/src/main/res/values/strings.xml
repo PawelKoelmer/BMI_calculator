@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BMICalculator</string>
+
+    <!-- Labels  -->
+    <string name="weight_label">Waga</string>
+    <string name="height_label">Wzrost</string>
+
+    <!-- Labels  -->
+    <string name="calculate_button">Oblicz</string>
+
+    <!-- BMI Range Strings  -->
+    <string name="under_16">wygłodzenie</string>
+    <string name="bmi_16_to_17">wychudzenie</string>
+    <string name="bmi_17_to_18_and_half">niedowaga</string>
+    <string name="bmi_18_and_half_to_25">wartość prawidłowa</string>
+    <string name="bmi_25_to_30">nadwaga</string>
+    <string name="bmi_30_to_35">I stopień otyłości</string>
+    <string name="bmi_35_to_40">II stopień otyłości</string>
+    <string name="more_than_40">otyłość skrajna</string>
+
+</resources>

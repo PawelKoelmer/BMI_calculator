@@ -46,29 +46,26 @@ public class MainActivity extends AppCompatActivity {
 
     private void checkBMIrange(double bmi){
 
-        if(bmi < R.dimen.first_threshold){
-            Toast.makeText(getApplicationContext(),R.string.under_16,Toast.LENGTH_SHORT).show();
+        if(bmi < 16){
+            Toast.makeText(getApplicationContext(),getText(R.string.under_16),Toast.LENGTH_SHORT).show();
         }
-        else if( bmi > R.dimen.first_threshold && bmi < R.dimen.second_threshold){
-            Toast.makeText(getApplicationContext(),R.string.bmi_16_to_17,Toast.LENGTH_SHORT).show();
+        else if( bmi > 16.00 && bmi < 16.99){
+            Toast.makeText(getApplicationContext(),getText(R.string.bmi_16_to_17),Toast.LENGTH_SHORT).show();
         }
-        else if( bmi > R.dimen.second_threshold && bmi < R.dimen.third_threshold){
-            Toast.makeText(getApplicationContext(),R.string.bmi_17_to_18_and_half,Toast.LENGTH_SHORT).show();
+        else if( bmi > 17 && bmi < 18.49){
+            Toast.makeText(getApplicationContext(),getText(R.string.bmi_17_to_18_and_half),Toast.LENGTH_SHORT).show();
         }
-        else if( bmi > R.dimen.third_threshold && bmi < R.dimen.fourth_threshold){
-            Toast.makeText(getApplicationContext(),R.string.bmi_18_and_half_to_25,Toast.LENGTH_SHORT).show();
+        else if( bmi > 18.50 && bmi < 25){
+            Toast.makeText(getApplicationContext(),getText(R.string.bmi_18_and_half_to_25),Toast.LENGTH_SHORT).show();
         }
-        else if( bmi > R.dimen.fourth_threshold && bmi < R.dimen.fifth_threshold){
-            Toast.makeText(getApplicationContext(),R.string.bmi_25_to_30,Toast.LENGTH_SHORT).show();
+        else if( bmi > 25 && bmi < 30){
+            Toast.makeText(getApplicationContext(),getText(R.string.bmi_25_to_30),Toast.LENGTH_SHORT).show();
         }
-        else if( bmi > R.dimen.fifth_threshold && bmi < R.dimen.sixth_threshold){
-            Toast.makeText(getApplicationContext(),R.string.bmi_30_to_35,Toast.LENGTH_SHORT).show();
+        else if( bmi > 30 && bmi < 35){
+            Toast.makeText(getApplicationContext(),getText(R.string.bmi_30_to_35),Toast.LENGTH_SHORT).show();
         }
-        else if( bmi > R.dimen.sixth_threshold && bmi < R.dimen.seventhh_threshold){
-            Toast.makeText(getApplicationContext(),R.string.bmi_35_to_40,Toast.LENGTH_SHORT).show();
-        }
-        else if(bmi > R.dimen.eighth_threshold){
-            Toast.makeText(getApplicationContext(),R.string.more_than_40,Toast.LENGTH_SHORT).show();
+        else if(bmi > 40){
+            Toast.makeText(getApplicationContext(),getText(R.string.more_than_40),Toast.LENGTH_SHORT).show();
         }
     }
 }

@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     Button calculate;
     EditText weight;
     EditText height;
+    double calculatedBMI;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
         calculate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               checkBMIrange(calculate());
+
+                checkBMIrange(calculate());
             }
         });
     }
@@ -68,4 +70,5 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(),getText(R.string.more_than_40),Toast.LENGTH_SHORT).show();
         }
     }
+
 }

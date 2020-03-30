@@ -8,4 +8,26 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="startQuizButton">
+        <item name="android:background">@drawable/button_rectangle</item>
+<!--        <item name="android:padding"></item>-->
+<!--        <item name="android:textSize"></item>-->
+
+    </style>
+
+
+    <style name="button_style">
+        <item name="android:background">@color/button_background</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

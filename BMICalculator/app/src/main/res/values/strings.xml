@@ -4,10 +4,15 @@
     <!-- Labels  -->
     <string name="weight_label">Waga</string>
     <string name="height_label">Wzrost</string>
+    <string name="age_label">Wiek</string>
+    <string name="gender_label">Płeć</string>
+    <string name="result_label">Wynik</string>
 
     <!-- Labels  -->
     <string name="calculate_button">Oblicz</string>
 
+    <!-- Warnings-->
+    <string name="data_warning">Nie podano wszystkich danych</string>
     <!-- BMI Range Strings  -->
     <string name="under_16">wygłodzenie</string>
     <string name="bmi_16_to_17">wychudzenie</string>
@@ -17,5 +22,17 @@
     <string name="bmi_30_to_35">I stopień otyłości</string>
     <string name="bmi_35_to_40">II stopień otyłości</string>
     <string name="more_than_40">otyłość skrajna</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="hov_many_calories_text">Możesz zjeść kalorii: </string>
 
+    <!-- Strings used for fragments for navigation -->
+    <string name="BMI_button">Kalkulator BMI</string>
+    <string name="CoronaQuiz">Quiz o Coronawirusie</string>
+    <string name="CaloriesActivity">Oblicz ile kalorii potrzebujesz</string>
+
+
+    <string name="start_Quiz">Zaczynamy</string>
+    <string name="points">Twój wynik to:</string>
+
+    <string name="game_button">Pokonaj koronwirusa</string>
 </resources>

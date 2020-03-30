@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="first_threshold" type="dimen" format="float">16.00</item>
-    <item name="second_threshold" type="dimen" format="float">16.99</item>
-    <item name="third_threshold" type="dimen" format="float">17.00</item>
-    <item name="fourth_threshold" type="dimen" format="float">18.49</item>
-    <item name="fifth_threshold" type="dimen" format="float">25.00</item>
-    <item name="sixth_threshold" type="dimen" format="float">30.00</item>
-    <item name="seventhh_threshold" type="dimen" format="float">35.00</item>
-    <item name="eighth_threshold" type="dimen" format="float">40.00</item>
+    <item name="first_threshold" format="float" type="dimen">16.00</item>
+    <item name="second_threshold" format="float" type="dimen">16.99</item>
+    <item name="third_threshold" format="float" type="dimen">17.00</item>
+    <item name="fourth_threshold" format="float" type="dimen">18.49</item>
+    <item name="fifth_threshold" format="float" type="dimen">25.00</item>
+    <item name="sixth_threshold" format="float" type="dimen">30.00</item>
+    <item name="seventhh_threshold" format="float" type="dimen">35.00</item>
+    <item name="eighth_threshold" format="float" type="dimen">40.00</item>
+    <dimen name="fab_margin">16dp</dimen>
 </resources>

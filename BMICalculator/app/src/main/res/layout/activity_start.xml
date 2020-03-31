@@ -47,8 +47,8 @@
         app:layout_constraintVertical_bias="0.082" />
 
     <Button
-        style = "@style/button_style"
         android:id="@+id/gameButton"
+        style="@style/button_style"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/game_button"
@@ -57,5 +57,5 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonQuiz"
-        app:layout_constraintVertical_bias="0.108" />
+        app:layout_constraintVertical_bias="0.301" />
 </androidx.constraintlayout.widget.ConstraintLayout>

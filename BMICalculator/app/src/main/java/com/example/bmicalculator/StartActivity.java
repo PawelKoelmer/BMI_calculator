@@ -44,12 +44,12 @@ public class StartActivity extends AppCompatActivity {
             }
         });
 
-        game.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                runGame();
-            }
-        });
+//       // game.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                runGame();
+//            }
+//        });
 
     }
 
@@ -68,10 +68,10 @@ public class StartActivity extends AppCompatActivity {
         startActivity(calories);
     }
 
-    void runGame(){
-        Intent game = new Intent(this, GameActivity.class);
-        startActivity(game);
-    }
+//    void runGame(){
+//        Intent game = new Intent(this, GameActivity.class);
+//        startActivity(game);
+//    }
 
 
 

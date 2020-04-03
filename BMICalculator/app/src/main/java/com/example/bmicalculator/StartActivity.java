@@ -1,11 +1,13 @@
 package com.example.bmicalculator;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.bmicalculator.game.GameActivity;
 
 public class StartActivity extends AppCompatActivity {
 
@@ -44,12 +46,12 @@ public class StartActivity extends AppCompatActivity {
             }
         });
 
-//       // game.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                runGame();
-//            }
-//        });
+        game.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                runGame();
+            }
+        });
 
     }
 
@@ -68,10 +70,10 @@ public class StartActivity extends AppCompatActivity {
         startActivity(calories);
     }
 
-//    void runGame(){
-//        Intent game = new Intent(this, GameActivity.class);
-//        startActivity(game);
-//    }
+    void runGame(){
+        Intent game = new Intent(this, GameActivity.class);
+        startActivity(game);
+    }
 
 
 

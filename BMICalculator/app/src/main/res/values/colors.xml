@@ -5,4 +5,5 @@
     <color name="colorAccent">#D81B60</color>
     <color name="background">#46b1c9</color>
     <color name="button_background">#fab439</color>
+    <color name="red_cross">#FF0000</color>
 </resources>
